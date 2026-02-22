@@ -122,11 +122,5 @@ function selectAnswer(event){
  const isCorrect = selectedButton.dataset.correct === "true"
   
  Array.from(answersContainer.children).forEach(button => {
-  if(button.dataset.correct === "true"){}
-
-
-}
-
-function restartQuiz(){
-  console.log("quiz re-started");
-}
+  if(button.dataset.correct === "true"){
+ };  
