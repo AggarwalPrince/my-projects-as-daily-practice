@@ -182,13 +182,13 @@ finalScoreSpan.textContent = score
 const percentage = (score / quizQuestions.length) * 100
 
 if(percentage >= 80){
-resultMessage.textContent = "Excellent!"
+resultMessage.textContent = "you are not that dumb!"
 }
 else if(percentage >= 50){
-resultMessage.textContent = "Not bad!"
+resultMessage.textContent = "you need ti improve idiot!"
 }
 else{
-resultMessage.textContent = "Keep learning!"
+resultMessage.textContent = "every genius is dumb but not every dumb is genius!"
 }
 
 }
